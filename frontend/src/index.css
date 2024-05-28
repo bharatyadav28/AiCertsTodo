@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-[rgba(0,0,0,255)] p-0 m-0 font-lato;
+  /* font-family: "Lato", sans-serif; */
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  top: 0;
+}
+
+.modal {
+  position: fixed;
+  min-width: 25rem;
+  min-height: 18rem;
+  background-color: white;
+  top: 50%;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: mod 0.3s ease-out forwards;
+  @apply rounded-xl px-7 py-7;
+}
+
+@keyframes mod {
+  0% {
+    opacity: 0;
+    top: -100%;
+  }
+  50% {
+    opacity: 1;
+    top: 70%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+.form-fields {
+  @apply my-3 flex flex-col;
+}
+
+.form-label {
+  @apply mb-1 font-semibold;
+}
+
+.inputs {
+  @apply rounded  border  px-3 py-2 text-slate-700 outline-none bg-[#F0F4F8];
+}
+
+.input-error {
+  @apply ml-1 text-sm font-medium text-red-500;
+}

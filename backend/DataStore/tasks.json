@@ -1,0 +1,16 @@
+[
+  {
+    "id": "23138f0b-4fdb-42a5-8429-10def3e6cf9a",
+    "title": "Jogging",
+    "description": "Running every day may have benefits for your health. Studies show that the benefits of running for just 5 to 10 minutes at a moderate pace (6.0 miles per hour) each day may include",
+    "status": "complete",
+    "dueDate": "2024-05-29"
+  },
+  {
+    "id": "b4c374f5-8e1a-4883-bfd7-659cc5c6bb4a",
+    "title": "Study",
+    "description": "Study for 7 to 8 hours a day. The reason is that it is not really too long to induce extreme fatigue and at the same time, would give good results in learning.",
+    "status": "incomplete",
+    "dueDate": "2024-05-30"
+  }
+]
