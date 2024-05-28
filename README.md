@@ -1,42 +1,56 @@
-Project Name
+# **AiCertsTodo**
+
 Overview
+
 This project is built using Node.js for the backend and React.js for the frontend. The repository contains the code for both the frontend and backend, organized into separate folders.
 
-Getting Started
+## **Getting Started**
+
 To get started with this project, follow the instructions below.
 
-Prerequisites
-Ensure you have the following installed on your machine:
-Node.js
-npm (Node Package Manager)
-Git
-Cloning the Repository
+
 Open your terminal.
 
 Clone the repository using the following command:
-git clone https://github.com/bharatyadav28/AiCertsTodo.git
+
+`git clone https://github.com/bharatyadav28/AiCertsTodo.git`
 
 Navigate to the cloned repository:
-cd AiCertsTodo
 
-Starting the Backend Server
-Open a terminal.
+`cd AiCertsTodo`
+
+## **Starting the Backend Server**
+
 Navigate to the backend directory:
-cd backend
+
+`cd backend`
+
 Install the required dependencies:
-npm install
+
+`npm install`
+
 Start the backend server:
-npm run dev
+
+`npm run dev`
+
 The backend server should now be running on http://localhost:4000 (or the port specified in your configuration).
 
-Starting the Frontend Server
+## **Starting the Frontend Server**
+
 Open another terminal window (the previous terminal must keep running).
+
 Navigate to the frontend directory:
-cd frontend
+
+`cd frontend`
+
 Install the required dependencies:
-npm install
+
+`npm install`
+
 Start the frontend server:
-npm start
+
+`npm start`
+
 The frontend application should now be running on http://localhost:3000.
 
 Open your web browser and enter the following URL:
